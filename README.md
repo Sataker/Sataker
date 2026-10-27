@@ -1,94 +1,43 @@
-<div align="center">
-
 # Enzo Vaccaro
 
-**AI Automation Architect** · São Paulo, Brazil
+**Senior AI Automation Engineer · Backend & Integrations** · Brazil, remote (UTC-3, overlaps US Eastern)
 
-*I build multi-agent AI systems that run businesses — not chatbots, not demos, production infrastructure.*
+I build AI systems that run real operations: WhatsApp agents that answer and qualify leads, back offices that act on
+their own, and the infrastructure that keeps them up. 4+ years shipping LLM workflows to production for businesses,
+end to end, from discovery to support.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-AI%20Automation-00d4ff?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sataker/ai-automation-portfolio)
-
-</div>
-
----
-
-### 🧠 What I Do
-
-I architect **autonomous AI systems** where specialized agents collaborate to solve real business problems. My current system runs **19 AI agents** — each with its own memory, tools, and expertise — orchestrated to handle everything from sales intelligence to security testing.
-
-```
-📊 Sales Analyst    → Revenue forecasting, funnel analysis, client insights
-🔒 Security Tester  → Automated penetration testing through browser automation
-🗄️ DBA Expert       → PostgreSQL monitoring, query optimization, alerting
-📱 Content Creator   → Instagram carousels, YouTube strategy, brand design
-🏗️ Infra Manager    → Docker deployment, VPS monitoring, CI/CD pipelines
-⚡ + 14 more specialists working together
-```
-
-### 🛠️ Tech
-
-<div align="center">
-
-**AI & LLM**
-
-![Claude](https://img.shields.io/badge/Claude-191919?style=flat-square&logo=anthropic&logoColor=white)
-![OpenAI](https://img.shields.io/badge/GPT--4-412991?style=flat-square&logo=openai&logoColor=white)
-![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=flat-square&logo=google&logoColor=white)
-
-**Development**
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-
-**Infrastructure**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
-
-**Platforms**
-
-![WhatsApp](https://img.shields.io/badge/WhatsApp_API-25D366?style=flat-square&logo=whatsapp&logoColor=white)
-![Discord](https://img.shields.io/badge/Discord_Bots-5865F2?style=flat-square&logo=discord&logoColor=white)
-![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
-
-</div>
-
-### 📌 Featured Work
-
-| Project | Description | Stack |
-|---------|------------|-------|
-| [**AI Automation Portfolio**](https://github.com/Sataker/ai-automation-portfolio) | 19-agent AI orchestration system, security testing, WhatsApp automation | Claude, Node.js, Puppeteer |
-| [**CoachClub**](https://github.com/Sataker/coachClub) | Platform for personal trainers — client management, workouts, nutrition | Next.js, Supabase, Tailwind |
-| [**QA Buddy Bliss**](https://github.com/Sataker/qa-buddy-bliss) | Automated QA testing companion for web applications | TypeScript, Testing frameworks |
-| [**FinanceFlow**](https://github.com/Sataker/financeflow) | Personal finance management with smart categorization | JavaScript, Data visualization |
-
-### 🎯 Current Focus
-
-- **AI for Brazilian Agribusiness** — Intelligent WhatsApp assistants that predict reorder timing for animal feed & supplements
-- **Application Security** — AI agents that pentest web apps through browser automation (not scanner spam)
-- **Multi-Agent Architecture** — Scaling from 19 to 30+ agents with cross-agent collaboration and shared memory
-- **Mobile-First Apps** — Dark UI, Framer Motion animations, Next.js 14
-
-### 📈 By the Numbers
-
-```
-19    AI agents in production
-50+   automated workflows
-3     messaging platforms integrated (WhatsApp, Discord, Telegram)
-100%  open-source tools (OpenClaw framework)
-```
+[LinkedIn](https://www.linkedin.com/in/enzo-vaccaro-63915732b) · [YouTube (Claude Code tutorials, PT-BR)](https://www.youtube.com/@EnzoVaccaro-AI) · enzovaccaro112@gmail.com
 
 ---
 
-<div align="center">
+### Public repositories
 
-**Open to:** AI infrastructure roles · Automation consulting · Technical partnerships
+| Repository | What it shows |
+|---|---|
+| [**ssa-framework**](https://github.com/Sataker/ssa-framework) | Open-source core of the multi-agent system I run 24/7: one specialist agent per Discord channel on Claude Code CLI, persistent memory, LLM-as-judge evaluation, task pipelines, delegation between agents, circuit breaker and tracing. Node.js, SQLite (WAL). |
+| [**contabot**](https://github.com/Sataker/contabot) | WhatsApp automation for accounting firms: Claude reads receipts and tax forms (vision + PDF), returns structured JSON, files them in Drive, logs to Sheets, answers simple questions and escalates the rest. Confidence threshold sends low-certainty documents to human review. n8n, Python, LLM APIs. |
+| [**contabot-saas**](https://github.com/Sataker/contabot-saas) | Multi-tenant dashboard for the same product: every query scoped by tenant, cross-tenant access tested with curl attacks, auth with Auth.js. Next.js, TypeScript, Prisma. |
+| [**agroinsight-api**](https://github.com/Sataker/agroinsight-api) | AI advisor for farmers: scheduled pipelines pull public market and climate data, build a per-farm context and get prioritized actions from an LLM, validated against a strict output contract before saving. Python, FastAPI, async SQLAlchemy, pytest + GitHub Actions. |
+| [**ssa-framework-claude-code**](https://github.com/Sataker/ssa-framework-claude-code) | Claude Code setup with persistent memory, a cascade of specialist subagents with contracts between phases, a quality hook after every edit and a Playwright QA crawler. |
+| [**trello-claude-code**](https://github.com/Sataker/trello-claude-code) | Claude Code skill for Trello with an OAuth 2.0 flow (local callback, token refresh) in standard-library Python. |
 
-📍 São Paulo, Brazil · 🌐 English & Portuguese
+### Client work (private repositories)
 
-</div>
+Most of my production work belongs to clients, so the code is private. Architecture walkthroughs on request.
+
+- **AI admissions platform, 12 universities (Spain):** answers and qualifies ~125,000 leads a year on WhatsApp.
+  n8n, Python, Zoho CRM API, Woztell, Directus back office where staff edit courses, prices and the AI's instructions.
+- **Public-health medication delivery (Brazil, SUS):** serverless API on AWS Lambda, PostgreSQL + PostGIS, route
+  optimization with OR-Tools; designing the FHIR-integrated successor.
+- **E-commerce back office with 12 AI agents:** purchasing, pricing, invoicing, marketplaces and receivables; the
+  purchasing agent projects demand, nets out stock and builds the supplier order on its own.
+- **AI sales funnels on WhatsApp:** LLM agents on n8n and Chatwoot that qualify, follow up and hand off with context.
+
+### Stack
+
+**AI:** Claude / Anthropic API, OpenAI, Gemini, Claude Code (subagents, hooks, skills, MCP), RAG, structured output, LLM evaluation
+**Automation & integrations:** n8n, WhatsApp APIs, Chatwoot, Zoho CRM, Google Workspace APIs, REST/webhooks, OAuth 2.0
+**Backend:** Python (FastAPI), Node.js / TypeScript, Next.js, PostgreSQL, SQLite, Prisma, SQLAlchemy
+**Infra:** Linux, Docker / Docker Compose, AWS Lambda, CI/CD (GitHub Actions), Redis
+
+English fluent · Italian advanced · Portuguese native
