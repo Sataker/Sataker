@@ -35,7 +35,7 @@ Most of my production work belongs to clients, so the code is private. Architect
 
 ### Stack
 
-**AI:** Claude / Anthropic API, OpenAI, Gemini, Claude Code (subagents, hooks, skills, MCP), structured output, prompt caching, LLM evaluation
+**AI:** Claude / Anthropic API, OpenAI, Gemini, Claude Code (subagents, hooks, skills, MCP), RAG, structured output, prompt caching, LLM evaluation
 **Automation & integrations:** n8n, WhatsApp APIs, Chatwoot, Zoho CRM, Google Workspace APIs, REST/webhooks, OAuth 2.0
 **Backend:** Python (FastAPI), Node.js / TypeScript, Next.js, PostgreSQL, SQLite, Prisma, SQLAlchemy
 **Infra:** Linux, Docker / Compose / Swarm, Traefik, AWS Lambda, Redis, RabbitMQ, CI/CD (GitHub Actions)
